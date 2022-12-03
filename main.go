@@ -21,6 +21,8 @@ func main() {
 		solutions.Run1(o.InputFile)
 	case 2:
 		solutions.Run2(o.InputFile)
+	case 3:
+		solutions.Run3(o.InputFile)
 	default:
 		fmt.Printf("Unimplemented: %v\n", o.Day)
 	}
