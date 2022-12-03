@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"gannonbarnett.com/advent-of-code-2022/solutions"
 	"github.com/jpillora/opts"
 )
@@ -18,7 +19,9 @@ func main() {
 	switch o.Day {
 	case 1:
 		solutions.Run1(o.InputFile)
+	case 2:
+		solutions.Run2(o.InputFile)
 	default:
-		fmt.Println("Unimplemented: %v", o.Day)
+		fmt.Printf("Unimplemented: %v\n", o.Day)
 	}
 }
